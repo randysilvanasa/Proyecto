@@ -4,23 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .fila {
+            display: flex;
+        }
+        .columna {
+            margin: 3% 5px;
+        }
+        /* Media querys */
+        @media screen and (max-width: 800px) {
+        .columna {
+            position:absolute;
+            overflow: visible;
+            overflow: auto;
+            
+            
+        }
+        }
+        @media screen and (max-width: 600px) {
+        .columna {
+            position: absolute;
+        }
+        }
+        /*  */
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        .columna img {
+        margin-top: 8px; /* separacion imagenes */
+        vertical-align: middle;
+        width: 100%;
+        }
+    </style>
 </head>
 <body>
-    
-    <div id="elementoparareact"></div>
-    <script src="https://unpkg.com/react@15.4.2/dist/react.js"></script>
-    <script src="https://unpkg.com/react-dom@15.4.2/dist/react-dom.js"></script>
-    <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>
-    <script type="text/babel">
-    var vista =
-    <div>
-        <h1>Proyecto II</h1>
-        <p>Esto es un ejemplo de lo que se va a crear proximamente</p>
-        <p>Randy Silvana Sanchez Alvarez</p>
-    </div>;
-    var elemento = document.getElementById('elementoparareact');
-    ReactDOM.render(vista, elemento);
-    </script>
 
+    <div class="fila">
+        <div class="columna">
+          <img src='https://images.unsplash.com/photo-1594670270672-bc6df816091d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img src='https://images.unsplash.com/photo-1593485724200-870fffe69148?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img src='https://images.unsplash.com/photo-1592966556929-08111961c071?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+        </div>
+        <div class="columna">
+          <img src='https://images.unsplash.com/photo-1594849981292-89dbaf5aee53?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img src='https://images.unsplash.com/photo-1593154586930-136210f7b84f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img src='https://images.unsplash.com/photo-1594709411830-8a4d066c426f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+        </div>
+        <div class="columna">
+          <img src='https://images.unsplash.com/photo-1592554797866-d281a625f817?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img src='https://images.unsplash.com/photo-1593014804370-d75ae1e7039b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img src='https://images.unsplash.com/photo-1593015303273-6311e2ea39cf?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+        </div>
+        <div class="columna">
+          <img src='https://images.unsplash.com/photo-1592571799051-f953b68c8ca6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img src='https://images.unsplash.com/photo-1593810450967-f9c42742e326?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+          <img src='https://images.unsplash.com/photo-1592908742295-025c922c468f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ' alt=''>
+        </div>
+      </div>
+
+
+   
 </body>
 </html>
