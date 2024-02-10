@@ -1,1 +1,1 @@
-Important info
+Important information
